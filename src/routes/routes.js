@@ -1,5 +1,5 @@
 const expres = require('express')
-const pingController = require('./pingRoutes')
+const pingController = require('../controllers/pingController')
 
 const routes = (app) => {
     const router = expres.Router()
