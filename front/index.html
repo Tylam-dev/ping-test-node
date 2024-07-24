@@ -12,10 +12,13 @@
     </section>
     <section class="form_section">
         <form>
-            <input class="ip" type="text">
+            <h1>Ping</h1>
+            <input placeholder="IP ex: 0.0.0.0" class="ip" type="text">
             <button class="ping_button">ping</button>
+            <button class="stop_ping_button hidden">stop</button>
         </form>
     </section>
+    <script src="../node_modules/socket.io/client-dist/socket.io.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
